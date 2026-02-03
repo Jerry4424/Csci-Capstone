@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AIPS Dashboard</title>
+    <script>
+        function updateDashboard() {
+            fetch('/update_data')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('port').innerText = data.port;
+                    document.getElementById('length').innerText = data.length;
+                    document.getElementById('iat').innerText = data.iat.toFixed(2);
+                    document.getElementById('syn').innerText = data.syn;
+                    
+                    // K-means status
+                    let kmeansDiv = document.getElementById('kmeans_status');
+                    kmeansDiv.innerText = data.kmeans_status;
+                    kmeansDiv.style.color = data.kmeans_status === "NORMAL" ? "green" : "red";
+                    document.getElementById('kmeans_cluster').innerText = data.kmeans_cluster;
+                    
+                    // Autoencoder status
+                    let aeDiv = document.getElementById('autoencoder_status');
+                    aeDiv.innerText = data.autoencoder_status;
+                    aeDiv.style.color = data.autoencoder_status === "NORMAL" ? "green" : "red";
+                    document.getElementById('reconstruction_error').innerText = data.reconstruction_error.toFixed(6);
+                });
+        }
+        // Run every 2 seconds
+        setInterval(updateDashboard, 2000);
+    </script>
+</head>
+<body>
+    <h1>Autonomous Intrusion Prevention System</h1>
+    <div id="stats">
+        <p>Dest Port: <span id="port">-</span></p>
+        <p>Packet Length: <span id="length">-</span></p>
+        <p>Flow IAT Mean: <span id="iat">-</span></p>
+        <p>SYN Count: <span id="syn">-</span></p>
+        
+        <h2>K-Means Model (PKL)</h2>
+        <p>Status: <span id="kmeans_status" style="font-weight: bold;">INITIALIZING...</span></p>
+        <p>Cluster: <span id="kmeans_cluster">-</span></p>
+        
+        <h2>Autoencoder Model</h2>
+        <p>Status: <span id="autoencoder_status" style="font-weight: bold;">INITIALIZING...</span></p>
+        <p>Reconstruction Error: <span id="reconstruction_error">-</span></p>
+    </div>
+</body>
+</html>
