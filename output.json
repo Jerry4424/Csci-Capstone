@@ -1,0 +1,135 @@
+[
+    {
+        "port": 53071,
+        "length": 11607,
+        "iat": 5470709.769,
+        "syn": 0,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 63175,
+        "length": 11607,
+        "iat": 213425.5714,
+        "syn": 0,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 52913,
+        "length": 1375,
+        "iat": 1586103.333,
+        "syn": 1,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 64358,
+        "length": 11607,
+        "iat": 243121.5714,
+        "syn": 0,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 54215,
+        "length": 11607,
+        "iat": 4757563.533,
+        "syn": 0,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 55867,
+        "length": 11607,
+        "iat": 6540538.5,
+        "syn": 0,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 54898,
+        "length": 11613,
+        "iat": 5157779.857,
+        "syn": 0,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 27809,
+        "length": 11601,
+        "iat": 201700.6667,
+        "syn": 0,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 443,
+        "length": 135,
+        "iat": 818411.6,
+        "syn": 1,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 52420,
+        "length": 11607,
+        "iat": 4839377.533,
+        "syn": 0,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 64654,
+        "length": 11613,
+        "iat": 5488747.333,
+        "syn": 0,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 54780,
+        "length": 11601,
+        "iat": 6098.285714,
+        "syn": 0,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 56145,
+        "length": 617,
+        "iat": 1.0,
+        "syn": 1,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 41124,
+        "length": 31,
+        "iat": 1.0,
+        "syn": 1,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 51649,
+        "length": 11607,
+        "iat": 4819886.294,
+        "syn": 0,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 54441,
+        "length": 11613,
+        "iat": 5182893.0,
+        "syn": 0,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 31585,
+        "length": 1375,
+        "iat": 413433.2,
+        "syn": 1,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 443,
+        "length": 123,
+        "iat": 854766.6,
+        "syn": 1,
+        "status": "ANOMALY"
+    },
+    {
+        "port": 56539,
+        "length": 11613,
+        "iat": 4832874.4,
+        "syn": 0,
+        "status": "ANOMALY"
+    }
+]
