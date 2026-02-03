@@ -90,10 +90,23 @@ for epoch in range(num_epochs):
 # Get the encoder output for clustering (latent representation)
 with torch.no_grad():
     encoded_output = model.encoder(data_tensor).numpy()
+    ae_outputs = model(data_tensor)
+    reconstruction_errors = torch.mean((ae_outputs - data_tensor) ** 2, dim=1).numpy()
+
+# Calculate statistics for threshold
+mean_error = np.mean(reconstruction_errors)
+std_error = np.std(reconstruction_errors)
+threshold_value = mean_error + (3 * std_error)  # 3 standard deviations
+
+print(f"Reconstruction Error Statistics:")
+print(f"Mean: {mean_error:.6f}")
+print(f"Std Dev: {std_error:.6f}")
+print(f"Threshold (mean + 3*std): {threshold_value:.6f}")
 
 # Save model and scaler
 torch.save(model.state_dict(), 'autoencoder_model.pt')
 joblib.dump(scaler, 'autoencoder_scaler.pkl')
+joblib.dump({'mean': mean_error, 'std': std_error, 'threshold': threshold_value}, 'autoencoder_threshold.pkl')
 
-print("'autoencoder_model.pt' and 'autoencoder_scaler.pkl' created.")
+print("'autoencoder_model.pt', 'autoencoder_scaler.pkl', and 'autoencoder_threshold.pkl' created.")
 print(f"Latent representation shape: {encoded_output.shape}")

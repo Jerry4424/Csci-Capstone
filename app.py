@@ -37,6 +37,8 @@ autoencoder = Autoencoder(input_dim=4, hidden_dim=5)
 autoencoder.load_state_dict(torch.load('autoencoder_model.pt'))
 autoencoder.eval()
 autoencoder_scaler = joblib.load('autoencoder_scaler.pkl')
+threshold_stats = joblib.load('autoencoder_threshold.pkl')
+ae_threshold = threshold_stats['threshold']
 mse_loss = nn.MSELoss(reduction='none')
 
 path = r'C:\Users\pompk\Desktop\SeniorCaptone\Dataset\Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv'
@@ -68,10 +70,9 @@ def update_data():
     ae_tensor = torch.tensor(ae_scaled_point, dtype=torch.float32)
     with torch.no_grad():
         ae_output = autoencoder(ae_tensor)
-        reconstruction_error = mse_loss(ae_output, ae_tensor).mean().item()
+        reconstruction_error = torch.mean((ae_output - ae_tensor) ** 2).item()
     
-    # Use a threshold for anomaly detection (typically 2-3 std devs from mean)
-    ae_threshold = 0.05  # Adjust based on your training data
+    # Use threshold calculated from training data
     ae_status = "ANOMALY" if reconstruction_error > ae_threshold else "NORMAL"
 
     # Prepare data

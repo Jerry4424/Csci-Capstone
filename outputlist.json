@@ -1,10 +1,10 @@
 {
-    "port": 63057,
-    "length": 11613,
-    "iat": 658591.5714,
+    "port": 80,
+    "length": 26,
+    "iat": 17265.71429,
     "syn": 0,
-    "kmeans_status": "ANOMALY",
-    "kmeans_cluster": 1,
-    "autoencoder_status": "ANOMALY",
-    "reconstruction_error": 2.1018528938293457
+    "kmeans_status": "NORMAL",
+    "kmeans_cluster": 0,
+    "autoencoder_status": "NORMAL",
+    "reconstruction_error": 0.1616877019405365
 }
