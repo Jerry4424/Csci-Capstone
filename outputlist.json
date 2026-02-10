@@ -1,0 +1,10 @@
+{
+    "port": 80,
+    "length": 26,
+    "iat": 17265.71429,
+    "syn": 0,
+    "kmeans_status": "NORMAL",
+    "kmeans_cluster": 0,
+    "autoencoder_status": "NORMAL",
+    "reconstruction_error": 0.1616877019405365
+}

@@ -131,5 +131,395 @@
         "iat": 4832874.4,
         "syn": 0,
         "status": "ANOMALY"
+    },
+    {
+        "port": 80,
+        "length": 24,
+        "iat": 2728736.0,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.07820523530244827
+    },
+    {
+        "port": 80,
+        "length": 24,
+        "iat": 30670.66667,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.16033796966075897
+    },
+    {
+        "port": 80,
+        "length": 24,
+        "iat": 2525621.333,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.07840738445520401
+    },
+    {
+        "port": 53961,
+        "length": 12982,
+        "iat": 5453614.692,
+        "syn": 1,
+        "kmeans_status": "ANOMALY",
+        "kmeans_cluster": 1,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 7.116296291351318
+    },
+    {
+        "port": 56939,
+        "length": 11613,
+        "iat": 5348785.0,
+        "syn": 0,
+        "kmeans_status": "ANOMALY",
+        "kmeans_cluster": 1,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 1.8671085834503174
+    },
+    {
+        "port": 80,
+        "length": 30,
+        "iat": 1517465.75,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.07812313735485077
+    },
+    {
+        "port": 80,
+        "length": 62,
+        "iat": 5252298.0,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.11079062521457672
+    },
+    {
+        "port": 80,
+        "length": 26,
+        "iat": 206022.1667,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.1426898092031479
+    },
+    {
+        "port": 80,
+        "length": 24,
+        "iat": 1615806.0,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.07811415940523148
+    },
+    {
+        "port": 80,
+        "length": 24,
+        "iat": 2934416.333,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.07809138298034668
+    },
+    {
+        "port": 80,
+        "length": 26,
+        "iat": 257311.2857,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.13795173168182373
+    },
+    {
+        "port": 443,
+        "length": 2802,
+        "iat": 447152.9565,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.09903550148010254
+    },
+    {
+        "port": 60349,
+        "length": 6,
+        "iat": 1750548.8,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.67396080493927
+    },
+    {
+        "port": 80,
+        "length": 26,
+        "iat": 71631.28571,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.15596042573451996
+    },
+    {
+        "port": 53028,
+        "length": 11601,
+        "iat": 23433.28571,
+        "syn": 0,
+        "kmeans_status": "ANOMALY",
+        "kmeans_cluster": 1,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 1.7736878395080566
+    },
+    {
+        "port": 443,
+        "length": 1831,
+        "iat": 2423156.037,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.06070724502205849
+    },
+    {
+        "port": 63057,
+        "length": 11613,
+        "iat": 658591.5714,
+        "syn": 0,
+        "kmeans_status": "ANOMALY",
+        "kmeans_cluster": 1,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 2.1018528938293457
+    },
+    {
+        "port": 80,
+        "length": 26,
+        "iat": 1627.333333,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.16337032616138458
+    },
+    {
+        "port": 80,
+        "length": 24,
+        "iat": 30473.0,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.1603662371635437
+    },
+    {
+        "port": 65500,
+        "length": 11601,
+        "iat": 26578.14286,
+        "syn": 0,
+        "kmeans_status": "ANOMALY",
+        "kmeans_cluster": 1,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 2.2628092765808105
+    },
+    {
+        "port": 53,
+        "length": 102,
+        "iat": 68.0,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.16069553792476654
+    },
+    {
+        "port": 55285,
+        "length": 11607,
+        "iat": 3662.75,
+        "syn": 0,
+        "kmeans_status": "ANOMALY",
+        "kmeans_cluster": 1,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 1.8517229557037354
+    },
+    {
+        "port": 123,
+        "length": 48,
+        "iat": 23977.0,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.15954774618148804
+    },
+    {
+        "port": 53,
+        "length": 80,
+        "iat": 79.0,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.161577507853508
+    },
+    {
+        "port": 80,
+        "length": 27468,
+        "iat": 217520.9737,
+        "syn": 0,
+        "kmeans_status": "ANOMALY",
+        "kmeans_cluster": 1,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 12.953089714050293
+    },
+    {
+        "port": 53,
+        "length": 68,
+        "iat": 10016.66667,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.1609967201948166
+    },
+    {
+        "port": 53,
+        "length": 40,
+        "iat": 23637.0,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.16071125864982605
+    },
+    {
+        "port": 57521,
+        "length": 1375,
+        "iat": 1219723.4,
+        "syn": 1,
+        "kmeans_status": "ANOMALY",
+        "kmeans_cluster": 1,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 5.370356559753418
+    },
+    {
+        "port": 80,
+        "length": 56,
+        "iat": 7376045.667,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.40470507740974426
+    },
+    {
+        "port": 59354,
+        "length": 6,
+        "iat": 2004776.4,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.6362422108650208
+    },
+    {
+        "port": 50501,
+        "length": 11607,
+        "iat": 187628.0,
+        "syn": 0,
+        "kmeans_status": "ANOMALY",
+        "kmeans_cluster": 1,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 1.6843161582946777
+    },
+    {
+        "port": 80,
+        "length": 26,
+        "iat": 261674.5714,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.13756883144378662
+    },
+    {
+        "port": 57578,
+        "length": 11607,
+        "iat": 5850178.625,
+        "syn": 0,
+        "kmeans_status": "ANOMALY",
+        "kmeans_cluster": 1,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 1.9325103759765625
+    },
+    {
+        "port": 80,
+        "length": 26,
+        "iat": 71494.42857,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.1559828370809555
+    },
+    {
+        "port": 80,
+        "length": 26,
+        "iat": 74855.85714,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.15563587844371796
+    },
+    {
+        "port": 53,
+        "length": 120,
+        "iat": 13565.4,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.15853539109230042
+    },
+    {
+        "port": 80,
+        "length": 26,
+        "iat": 5353.333333,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.16296790540218353
+    },
+    {
+        "port": 53,
+        "length": 64,
+        "iat": 63.0,
+        "syn": 0,
+        "kmeans_status": "NORMAL",
+        "kmeans_cluster": 0,
+        "autoencoder_status": "ANOMALY",
+        "reconstruction_error": 0.16223597526550293
+    },
+    {
+        "port": 49965,
+        "length": 1375,
+        "iat": 1222567.0,
+        "syn": 1,
+        "kmeans_status": "ANOMALY",
+        "kmeans_cluster": 1,
+        "autoencoder_status": "NORMAL",
+        "reconstruction_error": 5.127179145812988
     }
 ]
